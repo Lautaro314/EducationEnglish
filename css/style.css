@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(185, 228, 213)
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color:white;
+    flex-direction: row;
+}
+
+.english{
+    margin-top: 1%;
+}
+
+
+ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+}
+
+li{
+    margin: 0 10 0 10;
+    padding: 15px;
+    color: black;
+}
+
+a{
+    color:red;
+}
+
+.inicioIndex{
+    margin-top: 3%;
+}
+
+.colorh2{
+    color: black;
+    text-align: center;
+}
+
+
+.colorh1{
+    margin-left: 25%;
+}
+
+.English2{
+    margin-top: 3%;
+}
+
+.colorh3{
+    color: black;
+    margin-left: 12%;
+}
+
+.lesson2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerInicio{
+    background-color: white;
+    border: none;
+}
+.redesSociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: white;
+}
+
+
+h3{
+    text-align: center;
+}
+
+.redesSociales img{
+    height: 100px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+@media (max-width: 992px){
+    header{
+        flex-direction: column;
+        height: 10%;
+        text-align: center;
+    }
+    .header2 img{
+        height: 30%;
+        width: 30%;
+        margin-left: 35%;
+    }
+    .navbar-brand{
+
+    }
+    .inicioIndex{
+        margin-top: 7%;
+    }
+    .inicioIndex img{
+        height: 90%;
+        width: 90%;
+        margin-left:10px;
+    }
+    .lesson2{
+        flex-direction: column;
+    }
+    .English2{
+        margin-top: 7%;
+    }
+    .English2 h2{
+        margin-left: 5px;
+    }
+    .lesson2 iframe{
+        height: 150%;
+        width: 100%;
+    }
+    .footerInicio{
+        background-color: white;
+    }
+    .redesSociales{
+        flex-direction: column;
+        background-color: white;
+    }
+    .redesSociales img{
+        width: 30%;
+        height: 30%;
+        margin-left: 35%;
+        justify-content: space-between;
+    }
+}
+
+/*crear cuenta*/
+
+.colorBody{
+    background-color:rgb(185, 228, 213);
+}
+
+.headerCuenta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    height: 100px;
+}
+
+.navbar-brand{
+    margin-top: 5%;
+}
+
+.conteiner{
+    margin-top: 5%
+}
+
+.headerCuenta h1{
+    margin-top: 30px;
+}
+
+.headerCuenta li{
+    margin-top: 25px;
+}
+
+.contacto{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.crearCuenta img{
+    height: 100px;
+}
+
+.formulario{
+    display: contents;
+    color: black;
+    flex-direction: column;
+    background-color: rgb(185, 228, 213)
+}
+
+.lista1{
+    border: none;
+    background-color: rgb(185, 228, 213)
+}
+
+.lista2{
+    border: none;
+    background-color: rgb(185, 228, 213);
+}
+.lista3{
+    border: none;
+    background-color: rgb(185, 228, 213);
+}
+
+.lista4{
+    border: none;
+    background-color: rgb(185, 228, 213)
+}
+
+.lista5{
+    border: none;
+    background-color: rgb(185, 228, 213);
+}
+
+.footerCuenta0{
+    margin-top: 11%;
+    background-color: white;
+    border: none;
+}
+
+.footerCuenta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.footerCuenta img{
+    width: 7%;
+    height: 7%;
+}
+
+@media (max-width: 992px){
+    .headerCuenta{
+        flex-direction: column;
+        height: 10%;
+        text-align: center;
+    }
+    .headerCuenta img{
+        height: 30%;
+        width: 30%;
+        margin-left: 35%;
+    }
+    .navbar-brand{
+        margin-left: 42%;
+    }
+    .conteiner{
+        margin-left: 0%;
+        margin-top: 5%;
+        height: 540px;
+    }
+    .footerCuenta{
+        flex-direction: column;
+    }
+    .footerCuenta img{
+        width: 30%;
+        height: 30%;
+        margin-left: 35%;
+        justify-content: space-between;
+    }
+    .footerCuenta0 h3{
+        text-align: center;
+    }
+
+}
+
+/*sobre nosotros*/
+
+.sobrenosotrosDiv{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: white;
+    flex-direction: row;
+}
+
+.sorbrenosotrosDiv img{
+    height: 100px;
+}
+
+
+.sobreNosotros2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.sobreNosotros2 p{
+    background-color: none;
+    margin-top: 5%;
+}
+
+.sobreNosotros2 img{
+    height: 60%;
+    width: 60%;
+}
+
+.sobreNosotros3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-around;
+}
+
+.sobreNosotros4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: ;
+    margin-top: 5%;
+}
+
+.sobreNosotros4 img{
+    width: 60%;
+    height: 60%;
+    border-radius: 20%;
+    margin-left: 20%;
+}
+
+.sobreNosotros4 p{
+    text-align: center;
+    padding: 5px;
+}
+
+.sobreNosotros4 h2{
+    text-align: center;
+}
+
+.text-break{
+    padding: 10px;
+}
+
+.footerSobrenosotros{
+    background-color:white;
+    border: none
+}
+
+.sobreNosotrosredes1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.sobreNosotrosredes1 img{
+    height: 6%;
+    width: 6%;
+}
+
+.sobreNosotrosredes{
+    margin-left: 5%;
+}
+
+/*LENGUA*/
+.headerLengua{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: white;
+}
+
+.headerLengua h1{
+    margin-top: 20px;
+}
+
+.headerLengua li{
+    margin-top: 20px;
+}
+
+.divLengua{
+    display: flex;
+}
+
+.language1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:20px;
+}
+
+.language1 img{
+    width: 20%;
+    height: 20%;
+}
+
+.language1 p{
+    margin-top: 10%;
+}
+
+.language2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.language2 iframe{
+    text-align: left;
+    margin-right: 10%;
+    justify-content: space-around;
+}
+
+.language2 h2{
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.language3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.language3 img{
+    height: 30%;
+    width: 30%;
+}
+
+.h3Lengua{
+    margin-left: 5%;
+}
+
+.footerLeng{
+    background-color: white;
+    border: none;
+}
+
+.footerLengua{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.footerLengua img{
+    height: 100px;
+    width: 100px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 10px;
+    right: 1px;
+}
+
+/*fonologia*/
+.headerFonologia{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: white;
+}
+
+.headerFonologia h1{
+    margin-top: 20px;
+}
+
+.headerFonologia li{
+    margin-top: 20px;
+}
+
+.fonologia1{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fonologia2{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fonologia4{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.fonologia3{
+    margin-top: 3%;
+}
+
+.fonologia3 h2{
+    text-align: center;
+}
+
+.fonologia4 img{
+    width: 30%;
+    height: 30%;
+}
+
+.footerFonologia{
+    background-color: white;
+    border: none;
+}
+
+.fonologia5 img{
+    width: 7%;
+    height: 7%;
+    margin-left: 20%;
+}
