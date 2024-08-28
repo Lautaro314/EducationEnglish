@@ -99,9 +99,7 @@ h3{
         width: 30%;
         margin-left: 35%;
     }
-    .navbar-brand{
-
-    }
+    
     .inicioIndex{
         margin-top: 7%;
     }
@@ -302,7 +300,6 @@ h3{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    text-align: ;
     margin-top: 5%;
 }
 
